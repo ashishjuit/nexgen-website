@@ -159,6 +159,15 @@
     -webkit-animation:swing 3s infinite ease-in-out;
     -webkit-transform-origin:top;
 }
+
+/*
+@media (max-width: 700px){
+    #top-cord{
+    width: 100px;
+    height: 200px;
+    }
+}
+*/
 #alien-corner {
     background: url(../img/alien-corner.png) 100% 0% no-repeat !important;
     background-size: cover !important;
@@ -170,6 +179,8 @@
     right: -2px;
     top: 400px;
 }
+
+
 #alien-corner:hover {
     background: url(../img/alien-corner-2.png) 100% 0% no-repeat !important;
     cursor: pointer;
@@ -184,16 +195,17 @@
     50%{-webkit-transform:rotate(3deg)}
     100%{-webkit-transform:rotate(-3deg)}
 }
+
 #astro-floating {
     background: url(../img/astronaut-floating.png) 100% 0% no-repeat !important;
     background-size: cover !important;
-    width: 437px;
+     width: 437px;
     height: 328px;
     z-index: 1;
     float: right;
     position: absolute;
     right: 0px;
-    top: 20%;
+    top: 0;
     -webkit-animation-name: Floatingx;
     -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: infinite;
@@ -202,9 +214,236 @@
     -moz-animation-duration: 3s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: ease-in-out;
-    margin-left: 30px;
-    margin-top: 6px;
+/*
+   margin-left: 30px;
+ margin-top: 6px;
+*/
 }
+
+
+@media (max-height: 736px){
+
+    #top-cord{
+    width: 0px;
+    height: 0px;
+
+    }
+    #astro-floating{
+        width: 168px;
+        height: 119px;
+        margin-top: -100px;
+        top: 0px;
+        right: 20px;
+
+    }
+    #t1{
+        margin-top: 80px;
+
+    }
+    #cluster{
+        width: 240px;
+        height: 220px;
+        margin-top: 220px;
+        margin-left: 50px;
+
+    }
+    #cluster2{
+        width: 150px;
+        height: 75px;
+        margin-left: 50px;
+        margin-top: 20px;
+        right: 55%;
+
+    }
+    #t2{
+        padding-bottom: 0em;
+        padding-right: 0em;
+        margin-left: 35px;
+    }
+
+    #t3{
+        padding-bottom: 0em;
+        padding-right: 0em;
+        margin-left: 35px;
+    }
+
+    #t4{
+        padding-bottom: 0em;
+        padding-right: 0em;
+        margin-left: 85px;
+    }
+
+    #t5{
+        padding-bottom: 0em;
+        padding-right: 0em;
+        margin-left: 5%;
+
+    }
+    .bg-work-ufo{
+       padding: 0;
+    }
+    #work-ufo{
+        height: 400px;
+        margin-top: -80%;
+        margin-left: 28%;
+        margin-bottom: -50%;
+    }
+
+    #t6{
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+
+    #t7{
+        align-content: center;
+        margin-top: 50%;
+    }
+    #cluster2-testimonials{
+        width: 220px;
+        height: 200px;
+        padding-top: %;
+        right: 0px;
+    top: -10%;
+    margin-left: 0px;
+    margin-top: 0px;
+    }
+
+    #cluster-testimonials{
+        top: -15%;
+    }
+    #t9{
+        margin-left: 25%;
+        padding-bottom: 0%;
+    }
+
+    #about-phone{
+        height: 300px;
+        margin-top: -90%;
+        margin-left: 25%
+    }
+    #t10{
+        margin-left: -20px;
+    }
+}
+
+@media (height: 1024px){
+
+    #top-cord{
+    width: 150px;
+    height: 200px;
+
+    }
+    #astro-floating{
+        width: 198px;
+        height: 139px;
+        margin-top: -100px;
+        top: 60px;
+        right: 100px;
+
+    }
+    #t1{
+        margin-top: 140px;
+
+    }
+    #cluster{
+        height: 220px;
+        width: 230px;
+        margin-top: 260px;
+        margin-left: 55%;
+    }
+    #cluster2{
+        width: 150px;
+        height: 75px;
+        margin-right: 300px;
+        margin-top: 40px;
+    }
+
+     #t2{
+        padding-bottom: 0em;
+        padding-right: 0em;
+        margin-left: 35px;
+    }
+
+    #t3{
+        padding-bottom: 0em;
+        padding-right: 0em;
+        margin-left: 35px;
+    }
+
+    #t4{
+        padding-bottom: 0em;
+        padding-right: 0em;
+        margin-left: 75px;
+    }
+
+    #t5{
+        padding-bottom: 0em;
+        padding-right: 0em;
+        margin-left: 30px;
+
+    }
+    .bg-work-ufo{
+       padding: 0;
+    }
+    #about-phone{
+        margin-top: 60%;
+
+    }
+    #work-ufo{
+        height: 400px;
+        margin-top: -30%;
+        margin-left: 28%;
+        margin-bottom: -10%;
+    }
+
+    #t11{
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+
+
+    #t12{
+        margin-right: 25%;
+    }
+    #t13{
+        margin-right: 25%;
+    }
+    #t14{
+        margin-right: 25%;
+    }
+
+
+    #t6{
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+
+    #t7{
+        align-content: center;
+        margin-top: 20%;
+    }
+    #cluster2-testimonials{
+        width: 220px;
+        height: 200px;
+        padding-top: %;
+        right: 0px;
+    top: -10%;
+    margin-left: 0px;
+    margin-top: 0px;
+    }
+
+    #cluster-testimonials{
+        top: -15%;
+    }
+    #t9{
+        margin-left: 25px;
+    }
+
+}
+
+
+
+
 @-webkit-keyframes Floatingx{
     from {-webkit-transform:translate(0, 0px);}
     65% {-webkit-transform:translate(0, 20px);}
@@ -228,7 +467,7 @@
 }
 #services-text {
     width: 650px;
-    height: 571px;
+    height: 571;
 }
 #about-phone {
     height: 694px;
@@ -250,14 +489,14 @@
 }
 #services {
     width: 100%;
-    height: 774px;
+    height: auto;
     margin: 0;
     background-color: #a94442 !important;
     color: #fff !important;
 }
 #work {
     width: 100%;
-    height: 900px;
+    height: auto;
     margin: 0;
     background: url(../img/noisy_net.png) 100% 0% repeat !important;
 }
